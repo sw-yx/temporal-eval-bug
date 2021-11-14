@@ -1,0 +1,18 @@
+{
+  "name": "poral-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.6",
+    "temporalio": "0.15.x"
+  },
+  "scripts": {
+    "start": "ts-node src/worker.ts",
+    "workflow": "ts-node src/test.ts"
+  }
+}
